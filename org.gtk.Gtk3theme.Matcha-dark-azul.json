@@ -12,10 +12,10 @@
             "name": "Matcha-dark-azul",
             "buildsystem": "simple",
             "build-commands": [
-                "mkdir -pm 755 /usr/share/runtime/share/themes/Matcha-dark-azul/gtk-3.0",
+                "mkdir -pm 755 /usr/share/runtime/share/themes/Matcha-dark-azul/gtk-3.0/assets",
                 "cp src/gtk-3.0/gtk-dark-azul.css /usr/share/runtime/share/themes/Matcha-dark-azul/gtk-3.0/gtk.css",
                 "cp src/gtk-3.0/gtk-dark-azul.css /usr/share/runtime/share/themes/Matcha-dark-azul/gtk-3.0/gtk-dark.css",
-                "cp -r src/gtk-3.0/assets-azul /usr/share/runtime/share/themes/Matcha-dark-azul/gtk-3.0/assets",
+                "cp -fr src/gtk-3.0/assets-azul/* /usr/share/runtime/share/themes/Matcha-dark-azul/gtk-3.0/assets/",
                 "cp src/gtk-3.0/thumbnail-dark-azul.png /usr/share/runtime/share/themes/Matcha-dark-azul/gtk-3.0/thumbnail.png"
             ],
             "sources": [
