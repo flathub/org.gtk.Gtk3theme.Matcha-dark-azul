@@ -4,7 +4,7 @@
     "runtime": "org.freedesktop.Platform",
     "build-extension": true,
     "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "19.08",
+    "runtime-version": "20.08",
     "appstream-compose": false,
     "separate-locales": false,
     "modules": [
@@ -21,8 +21,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/vinceliuice/Matcha-gtk-theme/archive/2020-05-09.tar.gz",
-                    "sha256": "6c9e4cecb639ad07127ae7561895a92a4796c873210af73baef6832f2a1f37d4"
+                    "url": "https://github.com/vinceliuice/Matcha-gtk-theme/archive/2021-02-04.tar.gz",
+                    "sha256": "6bc14200334bb9a559da734bf04d2e2b3f8224b08c86c2fa988e5b99af882490"
                 }
             ]
         },
